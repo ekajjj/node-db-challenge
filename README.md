@@ -40,11 +40,20 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 - [ ] Explain the difference between `Relational Databases` and `SQL`.
 
+Relationa databases use multiple tables from data which can be accessed and arranged in a hierarchical manner. SQL is the  API which can be used to access
+DB.
+
 - [ ] Why do tables need a `primary key`?
+
+This is the uniqueue identifier for a table.
 
 - [ ] What is the name given to a table column that references the primary key on another table.
 
+Foreign Key
+
 - [ ] What do we need in order to have a _many to many_ relationship between two tables.
+
+Requires a bridging table for many to many relationships.
 
 ## Minimum Viable Product
 
