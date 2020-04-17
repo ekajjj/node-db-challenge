@@ -7,32 +7,32 @@ exports.seed = function(knex) {
             return knex('tasks').insert([
                 {
                     id: 1,
-                    description: 'Stare at the screen for a while',
+                    description: 'Asdasd',
                     notes: '',
                     completed: false,
                     project_id: 1
                 },
                 {
                     id: 2,
-                    description: 'Maybe get your brain working',
+                    description: 'Asdasdasdasdasd',
                     notes: '',
                     completed: false,
                     project_id: 1
                 },
                 { id: 3, 
-                  description: 'Drink more coffee', 
+                  description: 'ASdasdasdasd', 
                   notes: '', 
                   completed: false,
                   project_id: 2 
                 },
                 { id: 4, 
-                  description: 'Bang your head against desk', 
+                  description: 'ASasdasdasdasd', 
                   notes: '', 
                   completed: false,
                   project_id: 2 
                 },
                 { id: 5, 
-                  description: 'Do fuckall for the rest of the day', 
+                  description: 'Asdasdasd', 
                   notes: '', 
                   completed: false,
                   project_id: 3 
