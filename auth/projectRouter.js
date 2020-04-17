@@ -1,6 +1,7 @@
 const router = require('express').Router();
 
-const Projects = require('./project-model');
+const Projects = require('./projectModel');
+
 // Project find and add
 router.get('/', (req, res) => {
     Projects.findAllProjects()
@@ -24,6 +25,7 @@ router.post('/', (req, res) => {
             res.status(500).json({ errorMessage: `Got an error while adding your project: ${err}`})
         });
 });
+
 //Tasks find and add
 router.get('/tasks', (req, res) => {
     Projects.findAllTasks()
@@ -47,6 +49,7 @@ router.post('/tasks', (req, res) => {
             res.status(500).json({ errorMessage: `Got an error while adding your task: ${err}`})
         });
 });
+
 //Resources find and add
 router.get('/resources', (req, res) => {
     Projects.findAllResources()
